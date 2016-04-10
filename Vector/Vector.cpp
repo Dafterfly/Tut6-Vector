@@ -24,6 +24,15 @@ int main() {
 	}
 	cout << endl;
 
-	
+	// Sort array - sort() sorts in ascending order
+	sort(vect.begin(), vect.end());
+	reverse(vect.begin(), vect.end()); // reverse to get in descending order
+
+	// Print Sorted array
+	cout << "Sorted array:" << endl;
+	for (i = 0; i < 20; i++) {
+		cout << vect.at(i) << endl;
+	}
+
 	return 0;
 }
