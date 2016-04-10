@@ -17,6 +17,13 @@ int main() {
 		vect.push_back(randomNo);
 	}
 
+	// Print Generated array
+	cout << "Generated array:" << endl;
+	for (i = 0; i < 20; i++) {
+		cout << vect.at(i) << endl;
+	}
+	cout << endl;
+
 	
 	return 0;
 }
